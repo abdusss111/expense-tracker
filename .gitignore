@@ -1,0 +1,41 @@
+# --- General ---
+.DS_Store
+*.log
+
+# --- Python (Django) ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Django specific
+/db.sqlite3
+/db.sqlite3-journal
+/media/
+/static/
+
+# Migrations
+**/migrations/*
+21 __jetbrains_intellij_get_aliases*/migrations/__init__.py
+
+# --- Node.js (Vue.js) ---
+node_modules/
+dist/
+
+# Build files
+*.cache
+*.tmp
+
+# Logs and Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor settings
+.vscode/
+.idea/
+*.iml
